@@ -63,8 +63,8 @@
 /*Nossa marca*/
 .apresentacao {
   background-image: url('../img/aerial-view-of-business-data-analysis-graph.jpg');
-  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   color: #fff;
   font-size: 1.2em;
@@ -73,6 +73,7 @@
   background-color: rgba(0, 0, 0, 0.815);
   margin-left: 60%;
   width: 26%;
+  padding: 10px;
 }
 .flutuante img { width: 60%; }
 /*---------------------------------------------*/
@@ -109,10 +110,11 @@
 /*Vantagens*/
 .vantagens {
   background-image: url('../img/group-of-diverse-people-having-business-meeting.jpg');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 1.2em;
+  padding: 10px 10px;
 }
 .flutuante02 {
   background-color: rgba(0, 0, 0, 0.815);
@@ -121,7 +123,7 @@
 }
 .flutuante02 img { width: 60%; }
 .flutuante02 ul {
-  margin-left: 15%;
+  margin-left: 14%;
 }
 .vantagens button {
   border: none;
@@ -154,12 +156,16 @@ footer img {
   }
 
   .inicio img {
-    width: 450px;
+    width: 470px;
   }
 
-  .flutuante,  .flutuante02 {
+  .flutuante {
+    width: 45%;
+    margin-left: 50%;
+  }
+
+  .flutuante02 {
     width: 60%;
-    margin-left: 25%
   }
 
   .segmentos-p1 {
@@ -186,6 +192,7 @@ footer img {
   .intro {
     margin-top: 40px;
   }
+
   
   .icon-menu {
     display: block;
@@ -196,11 +203,6 @@ footer img {
     background-repeat: repeat;
   }
 
-  .flutuante {
-    width: 55%;
-    margin-left: 25%;
-    max-width: 55%;
-  }
 
   .servicos-itens {
     flex-direction: column;
@@ -212,6 +214,7 @@ footer img {
     margin-bottom: 4%;
   }
 }
+
 
 @media (max-width: 650px) {
   .cabecalho {
