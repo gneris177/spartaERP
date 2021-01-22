@@ -1,0 +1,248 @@
+/*Header*/
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000000ff;
+}
+.cabecalho-itens { display: flex; }
+.cabecalho a {
+  padding: 0 20px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #fff;
+}
+.box-contato,.cabecalho a:hover {
+  background-color: #3bbbf1ff;
+  color: #fff;
+  border-radius: 14px;
+}
+.box-contato { margin-left: 8px; }
+.cabecalho-itens-mobile a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+.icon-menu, .icon-close, .cabecalho-itens-mobile { display: none; }
+/*---------------------------------------*/
+
+/*home*/  
+.inicio {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 7%;
+  font-size: 1em;
+}
+.inicio h1 { color: #000; font: 2.6em "Hammersmith One", sans-serif; }
+.inicio hr {
+  width: 100px;
+  height: 3px;
+  border-color: #3bbbf1ff;
+  background-color: #3bbbf1ff;
+}
+.inicio img { 
+  width: 600px;
+  margin-top: 70px;
+}
+.box-texto {
+  font-size: 0.9em;
+  margin-top: 4%;
+  color: #000;
+}
+.btn-saiba {
+  border: none;
+  border-radius: 15px;
+  width: 145px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #3bbbf1ff;
+  color: #fff;
+  margin-top: 30px;
+}/*--------------------------------*/
+  
+/*Nossa marca*/
+.apresentacao {
+  background-image: url('../img/aerial-view-of-business-data-analysis-graph.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+}
+.flutuante {
+  background-color: rgba(0, 0, 0, 0.815);
+  margin-left: 60%;
+  width: 26%;
+}
+.flutuante img { width: 60%; }
+/*---------------------------------------------*/
+
+/*Section Segmentos*/
+.segmentos {
+  padding: 30px;
+  background-color:  rgba(15, 15, 15, 0.808);
+  color: #fff;
+  text-align: center;
+}
+.segmentos-p1{
+  display: flex;
+  justify-content: space-around;
+}
+.segmentos-p1 div {
+  font-size: 0.7em;
+  height: 250px;
+  width: 25%;
+  border-radius: 10px;
+  box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.164);
+  padding: 15px;
+  background-color: #fff;
+  color:  rgb(0, 0, 0);
+}
+.segmentos hr {
+  margin-top: 30px;
+  background-color: rgb(22, 240, 40);
+  border:rgb(8, 149, 209);
+  height: 2.7px;
+}
+/*----------------------------------------*/
+
+/*Vantagens*/
+.vantagens {
+  background-image: url('../img/group-of-diverse-people-having-business-meeting.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 1.2em;
+}
+.flutuante02 {
+  background-color: rgba(0, 0, 0, 0.815);
+  margin-left: 15%;
+  width: 29%;
+}
+.flutuante02 img { width: 60%; }
+.flutuante02 ul {
+  margin-left: 15%;
+}
+.vantagens button {
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: rgb(8, 149, 209);
+  color: #fff;
+  height: 25px;
+  width: 250px;
+}
+/*-----------------------------------------*/
+
+/*Rodapé*/
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+footer img {
+  margin-left: 22px;
+}
+/*---------------------------*/
+
+/*Responsividade*/
+@media(max-width: 1200px) {
+  .inicio h1 {
+    font-size: 2.2em;
+  }
+
+  .inicio img {
+    width: 450px;
+  }
+
+  .flutuante,  .flutuante02 {
+    width: 60%;
+    margin-left: 25%
+  }
+
+  .segmentos-p1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .segmentos-p1 div {
+    text-align: center;
+    width: 50%;
+  }
+}
+
+@media (max-width: 1025px) {
+  .cabecalho .cabecalho-itens {
+    display: none;
+  }
+
+  .inicio {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro {
+    margin-top: 40px;
+  }
+  
+  .icon-menu {
+    display: block;
+    margin-right: 5px;
+  }
+
+  .apresentacao, .vantagens {
+    background-repeat: repeat;
+  }
+
+  .flutuante {
+    width: 55%;
+    margin-left: 25%;
+    max-width: 55%;
+  }
+
+  .servicos-itens {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-itens div {
+    width: 70% !important;
+    margin-bottom: 4%;
+  }
+}
+
+@media (max-width: 650px) {
+  .cabecalho {
+    background-color: #000000;
+    color: #fff;
+  }
+
+  .cabecalho .cabecalho-itens-mobile {
+    flex-direction: column;
+    position: absolute;
+    background-color:rgb(8, 149, 209);
+    border-radius: 8px;
+    right: 1%;
+    top: 50px;
+  }
+
+  .apresentacao {
+    font-size: 0.7em;
+  }
+
+  .servicos-itens div {
+    width: 70% !important;
+  }
+}
+
+
+@media (min-width: 1800px) {
+  body {
+     margin: auto;
+     width: 50%;
+     padding: 10px;
+     display: table;
+ }
+}
