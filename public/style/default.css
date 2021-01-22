@@ -7,9 +7,10 @@
 
 html, body {
   min-width: 475px;
+  max-width: 1450px;
   overflow-x: hidden;
   background-color: #fff;
   font-size: 20px;
   font-family: "Bai Jamjuree", sans-serif;
   text-rendering: optimizeLegibility;
-}
+} 

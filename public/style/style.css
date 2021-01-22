@@ -67,7 +67,7 @@
   background-size: cover;
   text-align: center;
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 .flutuante {
   background-color: rgba(0, 0, 0, 0.815);
@@ -160,12 +160,13 @@ footer img {
   }
 
   .flutuante {
-    width: 45%;
-    margin-left: 50%;
+    min-width: 55%;
+    margin-left: 22%;
   }
 
   .flutuante02 {
     width: 60%;
+    margin-left: 20%;
   }
 
   .segmentos-p1 {
@@ -174,7 +175,6 @@ footer img {
   }
 
   .segmentos-p1 div {
-    text-align: center;
     width: 50%;
   }
 }
@@ -192,29 +192,18 @@ footer img {
   .intro {
     margin-top: 40px;
   }
-
-  
+ 
   .icon-menu {
     display: block;
     margin-right: 5px;
   }
 
-  .apresentacao, .vantagens {
-    background-repeat: repeat;
-  }
 
-
-  .servicos-itens {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .servicos-itens div {
+  .segmentos-p1 div {
     width: 70% !important;
     margin-bottom: 4%;
   }
 }
-
 
 @media (max-width: 650px) {
   .cabecalho {
@@ -231,21 +220,7 @@ footer img {
     top: 50px;
   }
 
-  .apresentacao {
-    font-size: 0.7em;
+  .segmentos-p1 div {
+    width: 72% !important;
   }
-
-  .servicos-itens div {
-    width: 70% !important;
-  }
-}
-
-
-@media (min-width: 1800px) {
-  body {
-     margin: auto;
-     width: 50%;
-     padding: 10px;
-     display: table;
- }
 }
