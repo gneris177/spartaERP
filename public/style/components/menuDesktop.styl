@@ -1,0 +1,31 @@
+.cabecalho-itens {
+  display: flex;
+
+    a {
+        padding: 0 20px;
+        text-decoration: none;
+        font-size: 1.2em;
+        color: #fff;
+    }
+
+    .box-contato, a:hover {
+        background-color: #3bbbf1ff;
+        color: #fff;
+        border-radius: 14px;
+    }
+
+    .box-contato { margin-left: 8px; }
+    
+    li { list-style-type: none; }
+
+    .menu-segmentos {
+      position: absolute;
+      right: 150px;
+      width: 190px;
+      font-size: 20px;
+    }
+}
+
+@media (max-width: 1025px) {
+  .cabecalho-itens { display: none; }
+}

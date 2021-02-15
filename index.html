@@ -1,8 +1,10 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPARTA ERP</title>
-    <link rel="stylesheet" href="./public/style/default.css">
     <link rel="stylesheet" href="./public/style/style.css">
 
     <!--Fontes-->
@@ -12,33 +14,47 @@
 
 <body>
     <header class="cabecalho">
-        <img src="./public/img/logo.png" height="36px" alt="Logo Sparta ERP">
+        <img src="./public/img/cabecalho/logo.png" height="36px" alt="Logo Sparta ERP">
 
         <nav class="cabecalho-itens">
             <a href="#home">
-                <div> Home</div>
+                <div> Home </div>
             </a>
-            <a href="#segmentos">
-                <div>Segmentos</div>
-            </a>
+
+            <a href="#" class="titulo-segmento"> Segmentos🔺 </a>
+            <nav class="menu-segmentos">
+                <ul>
+                    <li><a href="#juridico">Jurídico</a></li>
+                    <li><a href="#">Outros segm</a></li>
+                    <li><a href="#">Outros segm</a></li>
+                    <li><a href="#">Outros segm</a></li>
+                </ul>
+            </nav>
+
+
             <a href="#footer" class="box-contato" style="color: #fff;">
                 <div>Contato</div>
             </a>
         </nav>
 
-        <img src="./public/img/header/icone-menu.png" class="icon-menu"
-            alt="Icone para abrir o menu">
-        <img src="./public/img/header/close-menu.png" class="icon-close" alt="Icone para fechar o menu">
-        <nav class="cabecalho-itens-mobile">
-            <a href="#home">
-                <div> Home </div>
-            </a>
-            <a href="#segmentos">
-                <div>Segmentos</div>
-            </a>
-            <a href="#footer">
-                <div> Contato </div>
-            </a>
+        <!-- Menu Responsivo -->
+        <img src="./public/img/cabecalho/icone-menu.png" class="icon-menu" alt="Icone para abrir o menu">
+        <img src="./public/img/cabecalho/close-menu.png" class="icon-close" alt="Icone para fechar o menu">
+
+        <nav class="menu-responsivo">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="#" class="segmento-resp">Segmentos🔺</a></li>
+                <nav class="menu-segmentos-resp">
+                    <ul>
+                        <li><a href="#juridico">Jurídico</a></li>
+                        <li><a href="#">Outros segmentos</a></li>
+                        <li><a href="#">Outros segmentos</a></li>
+                        <li><a href="#">Outros segmentos</a></li>
+                    </ul>
+                </nav>
+            </ul>
         </nav>
     </header>
 
@@ -59,32 +75,33 @@
                     Sparta ERP é uma junção de robustez, praticidade <br>
                     e agilidade em termos de gestão empresarial para <br>
                     empresas de pequeno, médio e grande porte. <br>
-
-                    <button class="btn-saiba">Saiba mais</button> <br> <br>
                 </p>
+                <button class="btn-saiba">Saiba mais</button> <br> <br>
             </div>
 
             <div class="intro">
-                <img src="./public/img/intro01.svg" alt="Imagem ilustrativa de um jovem com o seu notebook programando">
+                <img src="./public/img/inicio/intro01.svg"
+                    alt="Imagem ilustrativa de um jovem com o seu notebook programando">
             </div>
         </section>
 
         <section class="apresentacao" id="apresentacao">
             <div class="flutuante">
-                <img src="./public/img/197c507e-0667-4c33-8820-31cd6e7c64aa (2).jpeg" alt="Logomarca da SPARTA ERP">
-                <p><br>
-                <h2>Nossa marca</h2>
-                Sparta era reconhecida como 
-                a Cidade Estado líder de 
-                todas as forças gregas 
-                combinadas durante as 
-                Guerras Greco-Persa.
+                <img src="./public/img/apresentacao/197c507e-0667-4c33-8820-31cd6e7c64aa (2).jpeg"
+                    alt="Logomarca da SPARTA ERP">
+                <h2>Nossa marca</h2> <br>
+                <p>
+                    Sparta era reconhecida como
+                    a Cidade Estado líder de
+                    todas as forças gregas
+                    combinadas durante as
+                    Guerras Greco-Persa.
                 </p> <br>
                 <p>
-                    Sparta foi objeto de fascínio 
-                    em sua própria época, assim 
-                    como no Ocidente após o 
-                    Renascimento da cultura 
+                    Sparta foi objeto de fascínio
+                    em sua própria época, assim
+                    como no Ocidente após o
+                    Renascimento da cultura
                     clássica.
                 </p>
             </div>
@@ -94,41 +111,108 @@
             <h2>Principais segmentos que atuamos:</h2> <br><br>
             <div class="segmentos-p1">
                 <div>
-                    <img src="./public/img/segmentos/img-startup.jpg" height="190"
-                        alt="imagem iludtrativa de uma Startup">
+                    <img src="./public/img/segmentos/img-startup.png" alt="imagem iludtrativa de uma Startup">
                     <h2> Startups </h2>
+                    <p>O ERP para startups é fundamental no quesito eficiência. Afinal, neste modelo de negócios a
+                        agilidade e o volume de negociações costumam ser altos.</p>
                 </div>
                 <div>
-                    <img src="./public/img/segmentos/img-Escritorio.jpg" height="190"
-                    alt="imagem iludtrativa de Escritório">
+                    <img src="./public/img/segmentos/img-Escritorio.png" alt="imagem iludtrativa de Escritório">
                     <h2> Escritórios de advocacia... </h2>
+                    <p> Deseja administrar seu negócio com mais
+                        segurança, agilidade, economia e
+                        praticidade? Saiba que o ERP para escritório
+                        em geral é a solução certa para você.
+                    </p>
                 </div>
                 <div>
-                    <img src="./public/img/segmentos/img-supermercados.jpg" height="190"
-                    alt="imagem iludtrativa de um mercado">
+                    <img src="./public/img/segmentos/img-supermercados.png" alt="imagem iludtrativa de um mercado">
                     <h2> Supermercados </h2>
+                    <p> O ERP para startups é fundamental no quesito
+                        eficiência. Afinal, neste modelo de negócios
+                        a agilidade e o volume de negociações costumam
+                        ser altos.
+                    </p>
                 </div>
             </div> <br> <br>
-        
-            <div class="segmentos-p1">
+
+            <div class="segmentos-p1 p2">
                 <div>
-                    <img src="./public/img//segmentos/img-esports.jpg" height="190"
-                    alt="imagem iludtrativa de esportes">
-                    <h2> Quadras poliesportiva </h2>
-                </div>
-                <div>
-                    <img src="./public/img//segmentos/img-industria.jpg" height="187"
-                    alt="imagem iludtrativa de uma indústria">
+                    <img src="./public/img/segmentos/img-industria.png" alt="imagem iludtrativa de uma indústria">
                     <h2> Indústrias </h2>
+                    <p> O ERP para startups é fundamental no quesito
+                        eficiência. Afinal, neste modelo de negócios
+                        a agilidade e o volume de negociações costumam
+                        ser altos.
+                    </p>
                 </div>
                 <div>
-                    <img src="./public/img/segmentos/img-baresERest.jpg" height="190"
-                        alt="imagem iludtrativa de uma refeição">
+                    <img src="./public/img/segmentos/img-esports.png" alt="imagem iludtrativa de esportes">
+                    <h2> Quadras poliesportiva </h2>
+                    <p> O ERP para startups é fundamental no quesito
+                        eficiência. Afinal, neste modelo de negócios
+                        a agilidade e o volume de negociações costumam
+                        ser altos.
+                    </p>
+                </div>
+                <div>
+                    <img src="./public/img/segmentos/img-baresERest.png" alt="imagem iludtrativa de um restaurante">
                     <h2> Bares e restaurantes </h2>
+                    <p> O ERP para startups é fundamental no quesito
+                        eficiência. Afinal, neste modelo de negócios
+                        a agilidade e o volume de negociações costumam
+                        ser altos.
+                    </p>
+
                 </div>
             </div>
             <button class="btn-saiba">Saiba mais</button>
             <hr>
+        </section>
+
+        <section class="descricacao-de-segmentos" id="juridico">
+            <div>
+                <h2>Jurídico</h2>
+                <img src="./public/img/descSegmentos/pngtree-scales-of-justice-icon-simple-style-png-image_1837209.svg"
+                    alt="">
+                <p>
+                    Nosso sistema foi pensado considerando as particularidades de
+                    um departamento jurídico. Automatizamos os principais
+                    processos de um departamento jurídico. <br> <br>
+
+                    Consideramos os diferentes papéis dentro de um
+                    departamento jurídico com funcionalidades e rotinas criadas com
+                    base em suas rotinas: diretores, gerentes, advogados e escritórios
+                    credenciados. <br> <br>
+
+                    Tendo todas as informações integradas e acessíveis,
+                    o foco do time jurídico passa a ser ainda mais estratégico.
+                    Nosso objetivo é permitir o alinhamento total entre o departamento
+                    jurídico e os escritórios que prestam serviços, facilitando a troca
+                    de documentos e informações de maneira rápida e segura. <br>
+                </p>
+            </div>
+
+            <div>
+                <h2>Lorem ipsum</h2>
+                <p>
+                    dolor sit amet consectetur, adipisicing elit. Corrupti
+                    nostrum optio qui ipsum aperiam, unde laborum fugit.
+                    Vitae, fuga voluptates corrupti, ipsa expedita facere
+                    tempora, animi illum tenetur exercitationem neque. <br> <br>
+
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eligendi earum quas repudiandae nostrum doloribus consequuntur
+                    aspernatur? Laudantium, dolorum accusantium. Error eos nam
+                    asperiores id nihil illum unde saepe deleniti perferendis. <br> <br>
+
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Eligendi earum quas repudiandae nostrum doloribus consequuntur
+                    aspernatur? Laudantium, dolorum accusantium. Error eos nam
+                    asperiores id nihil illum unde saepe deleniti perferendis.
+                </p>
+            </div>
+
         </section>
 
         <section class="vantagens">
@@ -138,9 +222,9 @@
                     <li>Baixo custo de aquisição e customização;</li> <br>
                     <li>Integração de novos módulos de forma rápida;</li> <br>
                     <li>Sistema em núvem e com máxima segurança, além de redundância;</li> <br>
-                    <li>Disponibilização de ambiente produtivo em até 1 hora com URL customizado para o seu negócio.</li>
+                    <li>Disponibilização de ambiente produtivo em até 1 hora com URL customizado para o seu negócio.
+                    </li>
                 </ul><br>
-
                 <button>Agende uma visita </button>
             </div>
         </section>
@@ -152,7 +236,7 @@
             <img src="./public/img/footer//whatsapp-logo-png.png" height="28" alt="">
             <img src="./public/img/footer/instagr.png" height="28" alt="">
         </div>
-        <p>Copyright © 2021 SPARTA ERP| Todos os direitos reservados</p>
+        <p>Copyright © 2021 SPARTA ERP | Todos os direitos reservados</p>
     </footer>
 
     <script src="./public/js/index.js"></script>

@@ -1,0 +1,36 @@
+.apresentacao {
+  background-image: url('../img/apresentacao/aerial-view-of-business-data-analysis-graph.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.flutuante {
+  background-color: rgba(0, 0, 0, 0.815);
+  margin-left: 60%;
+  width: 26%;
+  padding: 10px;
+
+  img { width: 60%; }
+}
+
+@media(max-width: 1200px) {
+  .flutuante {
+    min-width: 55%;
+    margin-left: 22%;
+  }
+}
+
+@media(max-width: 600px) {
+  .apresentacao {
+    display: flex;
+    justify-content: center
+
+    .flutuante {
+      margin-left: 0;
+      width: 70%;
+    }
+  }
+}
