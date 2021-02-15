@@ -6,7 +6,6 @@
 }
 html,
 body {
-  min-width: 450px;
   max-width: 1450px;
   overflow-x: hidden;
   font-size: 20px;
@@ -172,7 +171,7 @@ body {
   }
 }
 .apresentacao {
-  background-image: url("../img/apresentacao/aerial-view-of-business-data-analysis-graph.jpg");
+  background-image: url("../img/apresentacao/aerial-view-of-business-data-analysis-graph1.png");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -279,7 +278,7 @@ body {
   }
 }
 .vantagens {
-  background-image: url("../img/vantagens/group-of-diverse-people-having-business-meeting.jpg");
+  background-image: url("../img/vantagens/group-of-diverse-people-having-business-meeting1.png");
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
